@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.widget.TextView;
 import com.avos.avoscloud.*;
+import com.avos.avospush.*;
 
 public class PushDemo extends Activity {
     /**
