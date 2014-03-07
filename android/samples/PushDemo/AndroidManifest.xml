@@ -14,8 +14,8 @@
         </activity>
         <activity android:name=".Callback1"/>
         <activity android:name=".Callback2"/>
-        <service android:name="com.avos.avoscloud.PushService"/>
-		<receiver android:name="com.avos.avoscloud.AVDefaultNotificationReceiver">
+        <service android:name="com.avos.avospush.PushService"/>
+		<receiver android:name="com.avos.avospush.AVDefaultNotificationReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
                 <action android:name="android.intent.action.USER_PRESENT" />
